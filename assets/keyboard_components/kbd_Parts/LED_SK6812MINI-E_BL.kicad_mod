@@ -1,0 +1,209 @@
+(footprint "LED_SK6812MINI-E_BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0 -2.4 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "bc5770bc-f27e-4ca4-b1e0-255b6aaf2f34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SK6812MINI-E"
+		(at 0 -4.2 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3f5bcd9a-8379-4385-a342-cc52b0a9ecef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2994665e-de24-4b21-b653-bbc7ff62e86f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8344f916-81d3-47f9-a2a4-ed37b381e368")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d35ea732-68bb-4f6f-a427-cacd4b65af42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3.9 -1.55) (xy -5 -1.55) (xy -5 -0.45)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "b8e92954-d033-49f8-8cfe-e81d3957cadd")
+	)
+	(fp_line
+		(start -1.75 -1.6)
+		(end 1.75 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cdb15f3d-e00f-42ce-bfa1-b9833b191177")
+	)
+	(fp_line
+		(start -1.75 1.6)
+		(end -1.75 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "190ea727-1bcf-46e5-aeb6-a99a21c22bd1")
+	)
+	(fp_line
+		(start 1.75 -1.6)
+		(end 1.75 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77cad118-4ed5-4e4f-9630-5f1c70b2e0ad")
+	)
+	(fp_line
+		(start 1.75 1.6)
+		(end -1.75 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98056e9c-8d01-487b-9e8f-e2fea83fe648")
+	)
+	(fp_line
+		(start -3.5 -1.5)
+		(end 3.5 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "bd1a6fe5-c907-4aa7-8aa8-f606ca7d9024")
+	)
+	(fp_line
+		(start -3.5 1.5)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "268b7eb2-d1e7-4790-971a-ca6b8e4370a5")
+	)
+	(fp_line
+		(start 3.5 -1.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "bb01b2f1-b211-4e51-92b9-d6b8e1e7ba67")
+	)
+	(fp_line
+		(start 3.5 1.5)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "8cc8db5e-80eb-40a7-80d1-64c2d5b9c4e4")
+	)
+	(fp_text user "VCC"
+		(at 5.5 0.75 0)
+		(layer "B.SilkS")
+		(uuid "e5e2886a-8809-4590-8598-deda11921b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.6 -0.75)
+		(size 2.2 0.82)
+		(drill
+			(offset 0.35 0)
+		)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "adec5c6c-ed43-4ca5-a487-003319653721")
+	)
+	(pad "2" smd rect
+		(at -2.6 -0.75)
+		(size 2.2 0.82)
+		(drill
+			(offset -0.35 0)
+		)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "4c861fe2-6b87-41e9-b861-6bb7fe4cf304")
+	)
+	(pad "3" smd rect
+		(at -2.6 0.75)
+		(size 2.2 0.82)
+		(drill
+			(offset -0.35 0)
+		)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "778cf425-506e-4c98-bcda-ea3108407e14")
+	)
+	(pad "4" smd rect
+		(at 2.6 0.75)
+		(size 2.2 0.82)
+		(drill
+			(offset 0.35 0)
+		)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "f32ef30a-ae02-433b-9c1b-8f46c97538d2")
+	)
+)
