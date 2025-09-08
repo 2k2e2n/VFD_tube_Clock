@@ -1,0 +1,15 @@
+Reference,Qty,Value,DNP,Footprint,Datasheet
+A1,1,RaspberryPi_Pico,,Module:RaspberryPi_Pico_Common_Unspecified,https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+"C1,C2",2,22u,,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://akizukidenshi.com/catalog/g/g117899/
+"C4,C5,C6,C7",4,0.1u,,Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm,https://akizukidenshi.com/catalog/g/g110147/
+"H1,H2,H3,H4,H5,H6,H7,H8",8,MountingHole,,MountingHole:MountingHole_3.2mm_M3,~
+"J2,J3",2,Conn_02x10_Counter_Clockwise,,Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical,"https://akizukidenshi.com/catalog/g/g100078/,https://akizukidenshi.com/catalog/g/g100083/"
+"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8",8,~,,VFD:LD8035E,https://eleshop.jp/shop/g/g99T416/?srsltid=AfmBOoo7hH0MSEvwuiJySkFxnjm6NkcUF1gBNsLy6Bt0YVU8nQSq00dn
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R16,R17,R26,R27,R28,Rr2",20,10k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,https://akizukidenshi.com/catalog/g/g125103/
+"R18,R19,R20,R21,R22,R23,R24,R25",8,470,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,https://akizukidenshi.com/catalog/g/g125471/
+"SW2,SW3,SW4",3,SW_Push,,Button_Switch_THT:SW_PUSH_6mm_H7.3mm,https://akizukidenshi.com/catalog/g/g103647/
+"TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP30,TP31,TP34,TP36",15,TestPoint,,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
+"TP13,TP14,TP15,TP16,TP17,TP18,TP19,TP20,TP21,TP22,TP23,TP24,TP25,TP26,TP27,TP28,TP37,TP38,TP39,TP40,TP41,TP42,TP43,TP44,TP45,TP46,TP47,TP48,TP49,TP50,TP51,TP52,TP53,TP54,TP55,TP56,TP57,TP58,TP59,TP60,TP61,TP62,TP63,TP64,TP65,TP66,TP67,TP68,TP69,TP70",50,TestPoint_Small,,VFD:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
+"TP29,TP32,TP33,TP35",4,TestPoint,DNP,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
+"U1,U2,U3",3,TBD62783A,,Package_DIP:CERDIP-18_W7.62mm_SideBrazed_LongPads,http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783APG
+U4,1,~,,dcdc-converter:MT3608,https://www.amazon.co.jp/dp/B0CT2SVZFJ?ref=ppx_yo2ov_dt_b_fed_asin_title
